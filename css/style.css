@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #007BFF;
+    background: #0a192f;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -37,16 +37,23 @@ main {
 }
 
 section {
-    background: #fff;
+    margin: 40px 0;
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #0a192f;
     margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
+    background: #0a192f;
     color: #fff;
 }
 
@@ -156,7 +163,7 @@ button:hover, .social-icons a:hover {
 }
 
 .hero button {
-    background: #28a745;
+    background: #00b4d8;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -167,7 +174,7 @@ button:hover, .social-icons a:hover {
 }
 
 .hero button:hover {
-    background: #218838;
+    background: #0096c7;
 }
 
 @media (min-width: 1024px) {
@@ -212,3 +219,15 @@ form button:hover {
     background: #0056b3;
 }
 
+/* Alternate background colors for sections */
+#about {
+    background-color: #ffffff; /* White */
+}
+
+#services {
+    background-color: #f8f9fa; /* Light gray */
+}
+
+#contact {
+    background-color: #e3f2fd; /* Soft blue */
+}
