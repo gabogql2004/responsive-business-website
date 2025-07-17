@@ -82,3 +82,54 @@ button:hover {
     background: #0056b3;
 }
 
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+    color: #ffd700;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header nav ul.active {
+        display: flex;
+    }
+}
+
+header, footer, section {
+    transition: all 0.3s ease;
+}
+
+button, .social-icons a {
+    transition: transform 0.3s ease;
+}
+
+button:hover, .social-icons a:hover {
+    transform: scale(1.1);
+}
+
